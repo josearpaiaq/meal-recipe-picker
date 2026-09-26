@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ground: #f6f2ea;
+  --color-surface: #ffffff;
+  --color-sunken: #eae3d6;
+  --color-nav: #fbf8f2;
+  --color-line: #e2dacb;
+  --color-line-strong: #b9b2a3;
+  --color-track: #ddd5c5;
+  --color-ink: #1f2a1f;
+  --color-muted: #5e5849;
+  --color-herb: #2f6b3f;
+  --color-herb-soft: #e3eedf;
+  --color-herb-ink: #1f4a2b;
+  --color-tomato: #c4512d;
+  --color-tomato-strong: #b0431f;
+  --color-warm: #fbf3e8;
+  --color-warm-ink: #9a3f22;
+
+  /* Placeholder tints for recipes until photos exist. */
+  --color-tint-oat: #e9d9b8;
+  --color-tint-berry: #e6c9d0;
+  --color-tint-paprika: #ebc3ae;
+  --color-tint-sage: #d8ddbf;
+  --color-tint-corn: #e4d4a6;
+  --color-tint-herb: #cfdccb;
+  --color-tint-salmon: #eac6a8;
+  --color-tint-olive: #dcd6b4;
+  --color-tint-turmeric: #e8c79a;
+
+  --text-step: 1.75rem;
+  --text-step--line-height: 1.3;
+  --text-step-number: 4rem;
+  --text-step-number--line-height: 1;
+
+  --radius-card: 22px;
+  --radius-button: 14px;
+
+  --spacing-touch: 44px;
+  --spacing-cook-button: 64px;
+  --spacing-side-nav: 208px;
+  --spacing-shopping: 280px;
+}
+
+@theme inline {
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-body: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-ground);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  dialog::backdrop {
+    background-color: color-mix(in srgb, var(--color-ink) 55%, transparent);
+  }
+}
