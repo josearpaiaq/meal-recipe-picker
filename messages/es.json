@@ -1,0 +1,138 @@
+{
+  "common": {
+    "appName": "Plate",
+    "kicker": "Saludable, pero rico",
+    "language": "Idioma",
+    "back": "Atrás",
+    "close": "Cerrar",
+    "loading": "Cargando…",
+    "minutes": "{count} min",
+    "nav": {
+      "label": "Principal",
+      "pick": "Elegir",
+      "week": "Semana",
+      "saved": "Guardadas",
+      "pantry": "Despensa",
+      "pickLong": "Elegir comida",
+      "weekLong": "Esta semana"
+    },
+    "meals": {
+      "breakfast": "Desayuno",
+      "lunch": "Almuerzo",
+      "dinner": "Cena"
+    },
+    "effort": {
+      "nocook": "Sin cocinar",
+      "easy": "Fácil",
+      "medium": "Media"
+    },
+    "plate": {
+      "veg": "Verduras",
+      "protein": "Proteína",
+      "grain": "Integral",
+      "fat": "Grasa buena"
+    }
+  },
+  "picker": {
+    "titles": {
+      "breakfast": "¿Qué desayunamos?",
+      "lunch": "¿Qué almorzamos?",
+      "dinner": "¿Qué cenamos?"
+    },
+    "mealLabel": "Comida",
+    "timeLabel": "Tiempo máximo",
+    "anyTime": "Cualquiera",
+    "position": "{current} de {total}",
+    "somethingElse": "Otra idea",
+    "cookThis": "Cocinar",
+    "emptyTitle": "Aún no hay nada tan rápido",
+    "emptyBody": "Prueba con más tiempo o agrega una receta rápida a tu colección."
+  },
+  "recipes": {
+    "servings": "{count} porciones",
+    "cookStepByStep": "Cocinar paso a paso",
+    "why": "Por qué sabe bien",
+    "ingredients": "Ingredientes",
+    "steps": "Pasos",
+    "notFound": "No encontramos la receta",
+    "backToPicker": "Volver a elegir",
+    "photoCredit": "Foto: {author}, {license}"
+  },
+  "favorites": {
+    "add": "Guardar en favoritas",
+    "remove": "Quitar de favoritas",
+    "title": "Guardadas",
+    "tabSaved": "Guardadas",
+    "tabHistory": "Historial",
+    "emptySaved": "Aún no tienes favoritas. Toca el corazón de una receta para guardarla.",
+    "emptyHistory": "Aún no has cocinado nada. Toca “Lo cociné” después de comer.",
+    "cookedIt": "Lo cociné",
+    "cookedOn": "Cocinada el {date}",
+    "rateTitle": "¿Qué tal quedó?",
+    "rateBody": "Califica {recipe} para sugerirte mejores comidas.",
+    "rateOption": "{rating, plural, one {# estrella} other {# estrellas}}",
+    "ratingLabel": "Calificación",
+    "notRated": "Sin calificar",
+    "skip": "Omitir"
+  },
+  "cooking": {
+    "exit": "Salir del modo cocina",
+    "stepOf": "Paso {current} de {total}",
+    "stepTag": "Paso {step}",
+    "progress": "Progreso",
+    "youllNeed": "Necesitas",
+    "start": "Iniciar",
+    "reset": "Reiniciar",
+    "timesUp": "¡Listo!",
+    "screenAwake": "La pantalla no se apaga mientras cocinas",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "finish": "Terminar",
+    "timers": "{count, plural, one {# temporizador} other {# temporizadores}}",
+    "showTimers": "Ver temporizadores",
+    "hideTimers": "Ocultar temporizadores",
+    "goToStep": "Ir al paso {step}: {label}",
+    "replaceTitle": "¿Empezar otra receta?",
+    "replaceBody": "Estás cocinando {recipe}. Si empiezas esta receta, se cerrará y se borrarán sus temporizadores.",
+    "keepCooking": "Seguir cocinando",
+    "startNew": "Empezar nueva"
+  },
+  "planner": {
+    "title": "Esta semana",
+    "weekOf": "Semana del {date}",
+    "fill": "Llenar espacios vacíos",
+    "add": "Agregar",
+    "addTo": "Agregar una receta a {day}, {meal}",
+    "slotLabel": "{day}, {meal}: {recipe}",
+    "planTab": "Plan",
+    "listTab": "Lista de compras",
+    "shoppingList": "Lista de compras",
+    "auto": "Automática",
+    "emptyList": "Planea algunas comidas para armar tu lista.",
+    "chooseTitle": "{day} · {meal}",
+    "open": "Abrir receta",
+    "replace": "Cambiar",
+    "clear": "Quitar",
+    "addToWeek": "Agregar a la semana",
+    "addToWeekTitle": "Agregar a esta semana",
+    "day": "Día",
+    "meal": "Comida",
+    "save": "Guardar",
+    "aisles": {
+      "produce": "Frutas y verduras",
+      "protein": "Proteínas",
+      "dairy": "Lácteos",
+      "pantry": "Despensa",
+      "other": "Otros"
+    }
+  },
+  "pantry": {
+    "title": "Despensa",
+    "intro": "Ingredientes que tienes a mano. Las recetas que los usan se sugieren primero.",
+    "inputLabel": "Ingrediente",
+    "placeholder": "p. ej. Huevos",
+    "add": "Agregar",
+    "remove": "Quitar {item}",
+    "empty": "Aún no hay nada."
+  }
+}

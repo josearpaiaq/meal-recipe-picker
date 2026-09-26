@@ -1,0 +1,138 @@
+{
+  "common": {
+    "appName": "Plate",
+    "kicker": "Healthy, but good",
+    "language": "Language",
+    "back": "Back",
+    "close": "Close",
+    "loading": "Loading…",
+    "minutes": "{count} min",
+    "nav": {
+      "label": "Main",
+      "pick": "Pick",
+      "week": "Week",
+      "saved": "Saved",
+      "pantry": "Pantry",
+      "pickLong": "Pick a meal",
+      "weekLong": "This week"
+    },
+    "meals": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner"
+    },
+    "effort": {
+      "nocook": "No cooking",
+      "easy": "Easy",
+      "medium": "Medium"
+    },
+    "plate": {
+      "veg": "Veg",
+      "protein": "Protein",
+      "grain": "Whole grain",
+      "fat": "Good fat"
+    }
+  },
+  "picker": {
+    "titles": {
+      "breakfast": "What's for breakfast?",
+      "lunch": "What's for lunch?",
+      "dinner": "What's for dinner?"
+    },
+    "mealLabel": "Meal",
+    "timeLabel": "Max time",
+    "anyTime": "Any time",
+    "position": "{current} of {total}",
+    "somethingElse": "Something else",
+    "cookThis": "Cook this",
+    "emptyTitle": "Nothing that quick yet",
+    "emptyBody": "Try a longer time, or add a fast recipe to your collection."
+  },
+  "recipes": {
+    "servings": "Serves {count}",
+    "cookStepByStep": "Cook step by step",
+    "why": "Why it tastes good",
+    "ingredients": "Ingredients",
+    "steps": "Steps",
+    "notFound": "Recipe not found",
+    "backToPicker": "Back to the picker",
+    "photoCredit": "Photo: {author}, {license}"
+  },
+  "favorites": {
+    "add": "Save to favorites",
+    "remove": "Remove from favorites",
+    "title": "Saved",
+    "tabSaved": "Saved",
+    "tabHistory": "History",
+    "emptySaved": "No favorites yet. Tap the heart on a recipe to save it.",
+    "emptyHistory": "Nothing cooked yet. Tap “I cooked it” after a meal.",
+    "cookedIt": "I cooked it",
+    "cookedOn": "Cooked {date}",
+    "rateTitle": "How was it?",
+    "rateBody": "Rate {recipe} to help us suggest better meals.",
+    "rateOption": "{rating, plural, one {# star} other {# stars}}",
+    "ratingLabel": "Rating",
+    "notRated": "Not rated",
+    "skip": "Skip"
+  },
+  "cooking": {
+    "exit": "Exit cooking mode",
+    "stepOf": "Step {current} of {total}",
+    "stepTag": "Step {step}",
+    "progress": "Progress",
+    "youllNeed": "You'll need",
+    "start": "Start",
+    "reset": "Reset",
+    "timesUp": "Time's up",
+    "screenAwake": "Screen stays on while cooking",
+    "back": "Back",
+    "next": "Next step",
+    "finish": "Finish",
+    "timers": "{count, plural, one {# timer} other {# timers}}",
+    "showTimers": "Show timers",
+    "hideTimers": "Hide timers",
+    "goToStep": "Go to step {step}: {label}",
+    "replaceTitle": "Start a new recipe?",
+    "replaceBody": "You're cooking {recipe}. Starting this recipe will end it and clear its timers.",
+    "keepCooking": "Keep cooking",
+    "startNew": "Start new"
+  },
+  "planner": {
+    "title": "This week",
+    "weekOf": "Week of {date}",
+    "fill": "Fill empty slots",
+    "add": "Add",
+    "addTo": "Add a recipe to {day}, {meal}",
+    "slotLabel": "{day}, {meal}: {recipe}",
+    "planTab": "Plan",
+    "listTab": "Shopping list",
+    "shoppingList": "Shopping list",
+    "auto": "Auto",
+    "emptyList": "Plan some meals to build your list.",
+    "chooseTitle": "{day} · {meal}",
+    "open": "Open recipe",
+    "replace": "Replace",
+    "clear": "Clear",
+    "addToWeek": "Add to week",
+    "addToWeekTitle": "Add to this week",
+    "day": "Day",
+    "meal": "Meal",
+    "save": "Save",
+    "aisles": {
+      "produce": "Produce",
+      "protein": "Protein",
+      "dairy": "Dairy",
+      "pantry": "Pantry",
+      "other": "Other"
+    }
+  },
+  "pantry": {
+    "title": "Pantry",
+    "intro": "Ingredients you have on hand. Recipes that use them get suggested first.",
+    "inputLabel": "Ingredient",
+    "placeholder": "e.g. Eggs",
+    "add": "Add",
+    "remove": "Remove {item}",
+    "empty": "Nothing here yet."
+  }
+}
